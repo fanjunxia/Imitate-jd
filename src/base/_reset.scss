@@ -1,0 +1,71 @@
+//=====================颜色定义
+$color-red:#f10215;
+$color-gray1:#555555;
+$color-gray2:#999999;
+$color-gray3:#e3e4e5;
+//=====================初始化
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f6f6f6;
+  color: $color-gray1;
+  font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  color: $color-gray1;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color:$color-red;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+//===============================公共类
+.inner{
+  width: 1190px;
+  overflow: hidden;
+  margin: 0 auto;
+}
