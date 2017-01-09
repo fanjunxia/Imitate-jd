@@ -1,0 +1,207 @@
+#shortcut {
+  background-color: $color-gray3;
+  height: 30px;
+  border-bottom: 1px solid #E1E1E1;
+  line-height: 30px;
+  .dt{
+    display: inline-block;
+    height: 30px;
+    padding: 0 8px;
+    border: 1px solid $color-gray3;
+    border-top: none;
+    border-bottom-color: #E1E1E1;
+    cursor: pointer;
+    &:hover{
+      border: 1px solid #E1E1E1;
+      border-top: none;
+      border-bottom-color: #f6f6f6;
+      background-color: #f6f6f6;
+    }
+  }
+  .dd{
+    position: absolute;
+    border: 1px solid $color-gray2;
+    border-top: none;
+    padding: 10px 6px;
+    line-height: 20px;
+    display: none;
+  }
+  .dropdown {
+    float: left;
+    padding-left: 200px;
+    position: relative;
+    .dropdown-title{
+      padding: 0 8px;
+    }
+    .icon-location {
+      color: $color-red;
+    }
+    .dropdown-layer {
+      width: 290px;
+      top: 30px;
+      left: 200px;
+      .item {
+        margin: 2px 4px;
+        width: 50px;
+        float: left;
+        height: 20px;
+        a {
+          padding: 0 8px;
+          display: inline-block;
+          &:hover {
+            background-color: $color-gray3;
+          }
+        }
+      }
+    }
+  }
+  .shortcut-nav {
+    float: right;
+    .spacer{
+      width: 1px;
+      height: 10px;
+      background-color: $color-gray2;
+      display: inline-block;
+    }
+    .shortcut-nav-item{
+      display: inline-block;
+      a{
+        padding: 0 8px;
+      }
+      .sanjiao{
+        width: 0;
+        height: 0;
+        margin-left: 3px;
+        border: 7px solid transparent;
+        border-top-color: $color-gray2;
+        position: relative;
+        top: 12px;
+      }
+    }
+    .mylists{
+      .mylist1,.mylist2{
+        width: 240px;
+      }
+      .item{
+        width: 120px;
+        float: left;
+      }
+    }
+    .service{
+      .service1,.service2{
+        width: 160px;
+      }
+      .item{
+        float: left;
+        width: 80px;
+      }
+    }
+    .bb{
+      border-bottom: 1px solid $color-gray2;
+    }
+  }
+}
+
+#footer{
+  background-color: $color-gray3;
+  .service{
+    font-size: 0;
+    padding: 30px 0;
+    border-bottom: 1px solid #E1E1E1;
+    .item{
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 42px;
+      height: 42px;
+      width: 25%;
+      .item-inner{
+        padding-left: 45px;
+        display: inline-block;
+      }
+      .service-icon{
+        display: inline-block;
+        width: 36px;
+        height: 42px;
+        text-indent: -999em;
+        background-image: url('../images/ico_service.png');
+        background-repeat: no-repeat;
+      }
+      .service-text{
+        display: inline-block;
+      }
+      .icon-duo{
+        background-position: 0 0;
+      }
+      .icon-kuai{
+        background-position: 0 -42px;
+      }
+      .icon-hao{
+        background-position: 0 -85px;
+      }
+      .icon-sheng{
+        background-position: 0 -128px;
+      }
+    }
+  }
+  .help{
+    .help-list{
+      padding: 20px 0;
+      overflow: hidden;
+      border-bottom: 1px solid #E1E1E1;
+    }
+    .help-nav{
+      width: 16.6%;
+      float: left;
+    }
+    .help-nav-title,.help-cover-title{
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .help-cover-item{
+      margin-top: 15px;
+    }
+    .help-cover-more{
+      float: right;
+    }
+  }
+  .copyright{
+    text-align: center;
+    padding: 15px 0;
+    .copyright-links-split{
+      margin: 0 4px;
+    }
+    .copyright-info{
+      color: #A8A3A3;
+      padding: 10px 0;
+    }
+    .copyright-auth{
+      .copyright-auth-icon{
+        text-indent: -999em;
+        display: inline-block;
+        width: 102px;
+        height: 30px;
+        background-image: url('../images/ico_footer.png');
+        background-repeat: no-repeat;
+      }
+      .copyright-auth-icon1{
+        background-position: 0 -150px;
+      }
+      .copyright-auth-icon2{
+        background-position: -104px -150px;
+      }
+      .copyright-auth-icon3{
+        background-position: 0 -185px;
+      }
+      .copyright-auth-icon4{
+        background-position: -104px -185px;
+      }
+      .copyright-auth-icon5{
+        background-position: 0 -220px;
+      }
+      .copyright-auth-icon6{
+        background-position: -104px -220px;
+      }
+    }
+  }
+}
