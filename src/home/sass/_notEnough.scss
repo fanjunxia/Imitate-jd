@@ -1,0 +1,34 @@
+#notEnough{
+  margin-bottom: 30px;
+  .notEnough-list{
+    width: 1200px;
+  }
+  .notEnough-item{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    .notEnough-item-lk{
+      width: 220px;
+      display: block;
+      border: 1px solid #fff;
+      padding: 4px;
+      background-color: #ffffff;
+      &:hover{
+        border-color: $color-red;
+      }
+    }
+    img{
+      display: block;
+    }
+    .notEnough-info{
+      padding: 10px;
+    }
+    .notEnough-info-name{
+      height: 3em;
+      overflow: hidden;
+    }
+    .notEnough-info-price{
+      color: $color-red;
+    }
+  }
+}
