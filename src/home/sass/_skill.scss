@@ -1,0 +1,80 @@
+#skill{
+  height: 305px;
+  margin-bottom: 20px;
+  .skill-inner{
+    height: 100%;
+  }
+  .skill-hd-wrap{
+    background: url('../images/skill/seckill_hd.png') no-repeat center;
+  }
+  .skill-bd-wrap{
+    height: 225px;
+    overflow: hidden;
+  }
+  /*head*/
+  .skill-hd-col1{
+    float: left;
+  }
+  .box-hd-dec{
+    background-position: -190px -49px;
+  }
+  .skill-clock{
+    background-image: url('../images/sprite_index@1x.png');
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    background-position: 0 -39px;
+    top: 5px;
+  }
+  .box-tit{
+    margin-left: 40px;
+    display: inline-block;
+  }
+  .box-sub-tit{
+    margin-left: 20px;
+  }
+  .skill-hd-col2{
+    float: right;
+    font-size: 14px;
+  }
+  .skill-time{
+    background-color: #440106;
+    color: #F90013;
+    position: relative;
+    top: 4px;
+    font-size: 24px;
+    line-height: 37px;
+    padding: 4px;
+  }
+  /*con*/
+  .skill-list{
+    width: 1200px;
+  }
+  .skill-item{
+    width: 170px;
+    height: 225px;
+    padding-left: 14px;
+    padding-right: 15px;
+    border-right: 1px solid #e6e6e6;
+    float: left;
+    img{
+      width: 130px;
+      height: 130px;
+      position: relative;
+      left: 50%;
+      margin-left: -65px;
+      padding: 8px 0;
+    }
+  }
+  .skill-item:hover .skill-item-name{
+    color: $color-red;
+  }
+  .skill-item-name{
+    margin: 3px 0;
+    color: #A59C99;
+  }
+  .price-new{
+    font-size: 18px;
+    color: $color-red;
+  }
+}
