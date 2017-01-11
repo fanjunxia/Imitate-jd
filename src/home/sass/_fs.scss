@@ -1,0 +1,140 @@
+#fs{
+  margin-bottom: 10px;
+  .fs-inner{
+    height: 480px;
+  }
+  .fs-col1{
+    float: left;
+    width: 190px;
+    margin-right: 10px;
+    background-color: #6E6568;
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 14px;
+    a{
+      color: #ffffff;
+    }
+    .cate-menu-spacer{
+      margin: 0 2px;
+    }
+    .cate-menu-item{
+      height: 30px;
+      line-height: 30px;
+      padding-left: 12px;
+    }
+  }
+  .fs-col2{
+    float: left;
+    width: 790px;
+    margin-right: 10px;
+    .jd-slider{
+      margin-bottom: 10px;
+    }
+    .jd-slider-extend{
+      font-size: 0;
+      width: 800px;
+      a{
+        display: inline-block;
+        margin-right: 10px;
+      }
+      img{
+        height: 130px;
+        width: 390px;
+      }
+    }
+  }
+  .fs-col3{
+    float: right;
+    width: 190px;
+    background-color: #ffffff;
+    overflow: hidden;
+    .user{
+      height: 115px;
+      border-bottom: 1px solid #E6E6E6;
+      padding: 0 10px;
+      .user-info{
+        height: 46px;
+        padding: 20px 0 10px 0;
+      }
+      .user-profit{
+        height: 24px;
+        a{
+          display: inline-block;
+          width: 70px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          border: 1px solid $color-red;
+          margin-right: 8px;
+          &:hover{
+            background-color: $color-red;
+            color: #ffffff;
+          }
+        }
+      }
+      .user-img{
+        float: left;
+        width: 46px;
+        height: 46px;
+        border-radius: 23px;
+        overflow: hidden;
+        margin-right: 20px;
+        img{
+          width: 100%;
+        }
+      }
+      .user-info-show{
+        p{
+          line-height: 23px;
+        }
+      }
+    }
+    .news{
+      height: 154px;
+      padding: 0 20px;
+      line-height: 20px;
+      .news-tab-header{
+        border-bottom: 1px solid #E6E6E6;
+        a{
+          height: 20px;
+        }
+        a.active{
+          border-bottom: 2px solid $color-red;
+        }
+      }
+      .spacer{
+        margin: 0 5px;
+      }
+      .news-more{
+        float: right;
+      }
+      .news-tab-cons{
+        margin-top: 20px;
+      }
+      .news-tab-con{
+        line-height: 2em;
+      }
+    }
+    .service{
+      height: 210px;
+      table{
+        margin-left: -1px;
+        width: 192px;
+      }
+      td{
+        height: 69px;
+        border: 1px solid #e6e6e6;
+        text-align: center;
+      }
+      a{
+        display: block;
+        height:100%;
+        width: 100%;
+        padding-top: 20px;
+      }
+      .service-icon{
+        font-size: 16px;
+      }
+    }
+  }
+}
