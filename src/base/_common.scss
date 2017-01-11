@@ -57,12 +57,6 @@
   }
   .shortcut-nav {
     float: right;
-    .spacer{
-      width: 1px;
-      height: 10px;
-      background-color: $color-gray2;
-      display: inline-block;
-    }
     .shortcut-nav-item{
       display: inline-block;
       a{

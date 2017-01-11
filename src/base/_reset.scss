@@ -51,6 +51,10 @@ html {
   overflow-y: scroll;
 }
 
+input,button{
+  outline: none;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -66,4 +70,11 @@ html {
 .inner{
   width: 1190px;
   margin: 0 auto;
+}
+
+.spacer{
+  width: 1px;
+  height: 10px;
+  background-color: $color-gray2;
+  display: inline-block;
 }
